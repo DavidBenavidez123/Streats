@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { NavLink, Route } from "react-router-dom";
 import { withRouter } from "react-router";
 import { connect } from "react-redux";
+import { Home } from "./components/Home/Home";
 import "./App.css";
 
 class App extends Component {
@@ -24,8 +25,8 @@ class App extends Component {
         </div>
         <div className="App">
           <div className="main-content">
-            {/* <Route exact path="/" component={} />
-          <Route path="/account" component={} /> */}
+            <Route exact path="/" component={Home} />
+            {/* <Route path="/account" component={} /> */}
           </div>
         </div>
       </div>
