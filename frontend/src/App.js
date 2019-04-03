@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { NavLink, Route } from "react-router-dom";
 import { withRouter } from "react-router";
 import { connect } from "react-redux";
-import { Home } from "./components/Home/Home";
+import Home from "./components/Home/Home";
 import "./App.css";
 
 class App extends Component {
