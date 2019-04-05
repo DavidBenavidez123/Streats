@@ -15,32 +15,32 @@ class Home extends Component {
   };
 
   // gooogle map
-  initMap = () => {
-    var california = { lat: 37.4419, lng: -122.1419 };
-    var map = new google.maps.Map(document.getElementById("map"), {
-      center: california,
-      zoom: 13
-    });
+  //   initMap = () => {
+  //     var california = { lat: 37.4419, lng: -122.1419 };
+  //     var map = new google.maps.Map(document.getElementById("map"), {
+  //       center: california,
+  //       zoom: 13
+  //     });
 
-    var infowindow = new google.maps.InfoWindow({
-      content: document.getElementById("form")
-    });
+  //     var infowindow = new google.maps.InfoWindow({
+  //       content: document.getElementById("form")
+  //     });
 
-    var messagewindow = new google.maps.InfoWindow({
-      content: document.getElementById("message")
-    });
+  //     var messagewindow = new google.maps.InfoWindow({
+  //       content: document.getElementById("message")
+  //     });
 
-    google.maps.event.addListener(map, "click", function(event) {
-      var marker = new google.maps.Marker({
-        position: event.latLng,
-        map: map
-      });
+  //     google.maps.event.addListener(map, "click", function(event) {
+  //       var marker = new google.maps.Marker({
+  //         position: event.latLng,
+  //         map: map
+  //       });
 
-      google.maps.event.addListener(marker, "click", function() {
-        infowindow.open(map, marker);
-      });
-    });
-  };
+  //       google.maps.event.addListener(marker, "click", function() {
+  //         infowindow.open(map, marker);
+  //       });
+  //     });
+  //   };
 
   saveData = () => {
     // var name = escape(document.getElementById('name').value);
