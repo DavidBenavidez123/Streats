@@ -20,7 +20,9 @@ class App extends Component {
                 />
               </NavLink>
             </li>
-            <li>Burger menu here</li>
+            <li>
+              <button>Burger menu here</button>
+            </li>
           </ul>
         </div>
         <div className="App">
