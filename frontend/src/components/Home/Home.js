@@ -7,12 +7,12 @@ const google = window.google;
 
 class Home extends Component {
   // render map
-  renderMap = () => {
-    loadScript(
-      "https://maps.googleapis.com/maps/api/js?key=AIzaSyBy9fYQkYF5lv_-xzaK1HWvqsCZoicht0E&callback=initMap"
-    );
-    window.initMap = this.initMap;
-  };
+  // renderMap = () => {
+  //   loadScript(
+  //     "https://maps.googleapis.com/maps/api/js?key=AIzaSyBy9fYQkYF5lv_-xzaK1HWvqsCZoicht0E&callback=initMap"
+  //   );
+  //   window.initMap = this.initMap;
+  // };
 
   // gooogle map
   //   initMap = () => {
